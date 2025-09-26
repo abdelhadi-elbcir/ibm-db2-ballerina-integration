@@ -1,0 +1,14 @@
+[package]
+org = "E14"
+name = "db2_integration"
+version = "0.1.0"
+title = "db2-integration"
+
+[build-options]
+sticky = true
+
+[[platform.java11.dependency]]
+path = "./lib/db2jcc4.jar"
+
+[[platform.java11.dependency]]
+path = "./lib/db2jcc_license_cu.jar"

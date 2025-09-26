@@ -1,0 +1,5 @@
+dbHost = "localhost"
+dbPort = 50000
+dbName = "testdb"
+dbUser = "db2inst1"
+dbPassword = "password123"
